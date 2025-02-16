@@ -1,0 +1,27 @@
+#Header{
+    color: #ffffff;
+    font-family: "Poppins" , sans-serif;
+}
+.header{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.header-heading {
+    display: flex;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 5px 15px;
+    gap: 5px;
+    background-color: rgba(92, 96, 105, 0.25); 
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+}
+.header-heading h1,.header-heading img{
+    background: none;
+}
+h1{
+    font-weight: 400;
+}

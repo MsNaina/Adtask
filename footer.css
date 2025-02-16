@@ -1,0 +1,54 @@
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+#Footer{
+    font-family: "Poppins";
+    font-weight: 300;
+    border-top: 1px solid rgba(51, 59, 79, 1);
+    text-align: center;
+}
+.mail i,.location i{
+    color: rgba(92, 115, 174, 1);
+    font-size: 24px;
+}
+.location ,.mail{
+    display: flex;
+    gap: 2vw;
+    font-size: 12px; 
+    padding: .5vw 0vw;  
+}
+.location a,.mail a{
+    color: rgba(120, 129, 153, 1);
+}
+a{
+    font-weight: 300;
+}
+.mail a{
+    text-decoration: underline;
+}
+.footer-mid li , .footer-right li{
+color: rgba(255, 255, 255, 0.58);
+list-style: none;
+padding: .5vw 0vw;
+font-size: 16px;
+}
+
+.footer-mid h1 , .footer-right h1{
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+}
+.footer-bottom p{
+    color: rgba(120, 129, 153, 1);
+    font-size: 14px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    margin: 2.3vw 9.2vw;
+    align-items: center;
+}
+.footer-mid , .footer-right{
+    display: block;
+    text-align: center;
+}
+.footer-left img{
+width: 300px;
+}
